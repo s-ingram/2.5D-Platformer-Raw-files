@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833d8e54a7f4e04bb039bc08cec1fd0, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: 
+  WeaponName: Sniper Rifle
+  description: A sniper rifle.
+  damage: 100
+  refireDelay: 1.5
+  reloadTime: 5
+  minDeviation: 0.1
+  maxDeviation: 0.2
+  deviationIncreaseRate: 0
+  deviationDecreaseRate: 0
+  range: 50
+  falloff: 2
+  velocity: 90
+  baseCost: 1000
+  critChance: 0
+  pierceChance: 0
+  projectileCount: 1
+  maxMagAmount: 4
+  maxSpareAmmo: 20
+  ricochetteCount: 1
+  bulletTrails: 1
+  npcWeapon: 0
+  weaponType: 1
+  projectileType: 1
+  fireType: 0
+  damageType: 0
+  rarity: 0
+  weaponSprite: {fileID: -6089588470657927997, guid: 3ef11b35a616fb14082217bf43f25535,
+    type: 3}
+  projectileSprite: {fileID: -6179378161327367069, guid: e92f929f56a0f3445923006b5be95d94,
+    type: 3}
+  material: {fileID: 2100000, guid: 2d4ef4e97ca23fb4fa7212728fceb2df, type: 2}
+  particleMaterial: {fileID: 2100000, guid: f51432d62058bc4478899d75c73f41ef, type: 2}
+  fireSound:
+  - {fileID: 8300000, guid: d0af0d8b23714214490d51604437c96f, type: 3}
+  - {fileID: 8300000, guid: 3ea1ed2fee571cb4aae758dc494cba63, type: 3}
+  emptySound:
+  - {fileID: 8300000, guid: 7924d921f576da445ae421d3a6f5594b, type: 3}
+  - {fileID: 8300000, guid: f9abbb65eba33574cbc3dcb95a03d68f, type: 3}
+  hitEffect: {fileID: 7568312724326430104, guid: 65773a77497326f4caf1c9dde3f76108,
+    type: 3}

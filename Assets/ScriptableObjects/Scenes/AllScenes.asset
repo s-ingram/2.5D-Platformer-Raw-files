@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d339faa9d2faa1346a7231d276b2a505, type: 3}
+  m_Name: AllScenes
+  m_EditorClassIdentifier: 
+  levelParams:
+  - roomGenParams: {fileID: 11400000, guid: 8be9fe97cd1218d4bae2469ec21cf33e, type: 2}
+    roomNPCList: {fileID: 11400000, guid: a352bb4c6a2f1ab4691f36c33e10d68f, type: 2}
+    roomItemList: {fileID: 11400000, guid: eb632f05b96be314d8c77ba889592c71, type: 2}
+  - roomGenParams: {fileID: 11400000, guid: 8940c9251ea697949b82180f6508a7d6, type: 2}
+    roomNPCList: {fileID: 11400000, guid: b343e8dd8c88ae344a5b5b0641cee19f, type: 2}
+    roomItemList: {fileID: 11400000, guid: e02d78ceac9b99b4d8afb59cead7c5ee, type: 2}
+  - roomGenParams: {fileID: 11400000, guid: dff003dda697d224d9bac73dbd096ab1, type: 2}
+    roomNPCList: {fileID: 11400000, guid: ad69398e6df61ed4abeceba324ecb69b, type: 2}
+    roomItemList: {fileID: 11400000, guid: e1f354caa8466ea4aab03ad22fc14f4d, type: 2}
+  - roomGenParams: {fileID: 11400000, guid: c429cb7dac345cf4e97f546031e99bbb, type: 2}
+    roomNPCList: {fileID: 11400000, guid: bd42cee93fb3d0d41b4ed04ae88ec7a9, type: 2}
+    roomItemList: {fileID: 11400000, guid: 82065b6d0177ae240bd64ba89bed076e, type: 2}

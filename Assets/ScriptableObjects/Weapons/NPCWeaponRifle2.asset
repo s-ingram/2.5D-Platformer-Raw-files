@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833d8e54a7f4e04bb039bc08cec1fd0, type: 3}
+  m_Name: NPCWeaponRifle2
+  m_EditorClassIdentifier: 
+  WeaponName: 
+  description: NPC Weapon
+  damage: 25
+  refireDelay: 0.2
+  reloadTime: 0.5
+  minDeviation: 10
+  maxDeviation: 15
+  deviationIncreaseRate: 3
+  deviationDecreaseRate: 0.5
+  range: 12
+  falloff: 3
+  velocity: 6
+  baseCost: 100
+  critChance: 0
+  pierceChance: 0
+  projectileCount: 1
+  maxMagAmount: 10
+  maxSpareAmmo: 50
+  ricochetteCount: 1
+  bulletTrails: 0
+  npcWeapon: 1
+  weaponType: 0
+  projectileType: 1
+  fireType: 0
+  damageType: 0
+  rarity: 0
+  weaponSprite: {fileID: 0}
+  projectileSprite: {fileID: 21300000, guid: 696ac7a0e7e002740a9ffe0946697bfb, type: 3}
+  material: {fileID: 2100000, guid: 2d4ef4e97ca23fb4fa7212728fceb2df, type: 2}
+  particleMaterial: {fileID: 2100000, guid: f51432d62058bc4478899d75c73f41ef, type: 2}
+  fireSound:
+  - {fileID: 8300000, guid: 56b564dac127334448ed8fd0a0af9543, type: 3}
+  emptySound:
+  - {fileID: 0}
+  hitEffect: {fileID: 7568312724326430104, guid: 65773a77497326f4caf1c9dde3f76108,
+    type: 3}

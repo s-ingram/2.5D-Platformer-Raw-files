@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd79b184bfb7b72489bfa44e6db4a63c, type: 3}
+  m_Name: EasyLevel2ItemList
+  m_EditorClassIdentifier: 
+  r_max: 750
+  list:
+  - weight: 300
+    prefab: {fileID: 2364158776465137543, guid: db7eb070ecee8274483639b85af8b3f2,
+      type: 3}
+  - weight: 150
+    prefab: {fileID: 2364158776465137543, guid: 1061b83f0bae4ae4c8e60609eaf529ef,
+      type: 3}
+  - weight: 150
+    prefab: {fileID: 2364158776465137543, guid: c07e2782e0f63a54ea1244b3f5c99905,
+      type: 3}
+  - weight: 150
+    prefab: {fileID: 2364158776465137543, guid: c07e2782e0f63a54ea1244b3f5c99905,
+      type: 3}

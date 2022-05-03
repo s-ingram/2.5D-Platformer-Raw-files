@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833d8e54a7f4e04bb039bc08cec1fd0, type: 3}
+  m_Name: LaserRifle
+  m_EditorClassIdentifier: 
+  WeaponName: Laser Rifle
+  description: An advanced laser rifle.
+  damage: 25
+  refireDelay: 0.2
+  reloadTime: 3
+  minDeviation: 0
+  maxDeviation: 0
+  deviationIncreaseRate: 0
+  deviationDecreaseRate: 0
+  range: 8
+  falloff: 4
+  velocity: 10
+  baseCost: 500
+  critChance: 0
+  pierceChance: 0
+  projectileCount: 1
+  maxMagAmount: 15
+  maxSpareAmmo: 60
+  ricochetteCount: 1
+  bulletTrails: 0
+  npcWeapon: 0
+  weaponType: 1
+  projectileType: 2
+  fireType: 1
+  damageType: 1
+  rarity: 2
+  weaponSprite: {fileID: -8188333393871471856, guid: e92f929f56a0f3445923006b5be95d94,
+    type: 3}
+  projectileSprite: {fileID: -8188333393871471856, guid: e92f929f56a0f3445923006b5be95d94,
+    type: 3}
+  material: {fileID: 2100000, guid: 2d4ef4e97ca23fb4fa7212728fceb2df, type: 2}
+  particleMaterial: {fileID: 2100000, guid: f51432d62058bc4478899d75c73f41ef, type: 2}
+  fireSound:
+  - {fileID: 8300000, guid: b364600e057c33d49983aa856c0be4b9, type: 3}
+  emptySound: []
+  hitEffect: {fileID: 2498991746102696920, guid: 7dfacdcbcc9936a43a75d6ed896548db,
+    type: 3}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833d8e54a7f4e04bb039bc08cec1fd0, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  WeaponName: 
+  description: A shotgun.
+  damage: 5
+  refireDelay: 1
+  reloadTime: 2
+  minDeviation: 10
+  maxDeviation: 20
+  deviationIncreaseRate: 5
+  deviationDecreaseRate: 1
+  range: 6
+  falloff: 2
+  velocity: 25
+  baseCost: 500
+  critChance: 0
+  pierceChance: 0
+  projectileCount: 8
+  maxMagAmount: 8
+  maxSpareAmmo: 40
+  ricochetteCount: 1
+  bulletTrails: 1
+  npcWeapon: 0
+  weaponType: 3
+  projectileType: 1
+  fireType: 0
+  damageType: 0
+  rarity: 1
+  weaponSprite: {fileID: 8003923314854484980, guid: 3ef11b35a616fb14082217bf43f25535,
+    type: 3}
+  projectileSprite: {fileID: 21300000, guid: 9e49cffef746f224fa1e4c0e1b39ef6a, type: 3}
+  material: {fileID: 2100000, guid: 2d4ef4e97ca23fb4fa7212728fceb2df, type: 2}
+  particleMaterial: {fileID: 2100000, guid: f51432d62058bc4478899d75c73f41ef, type: 2}
+  fireSound:
+  - {fileID: 8300000, guid: efd1fa485d08be3449973dabfdbafc98, type: 3}
+  - {fileID: 8300000, guid: 6617ae8224809614593f49ae6d03f9c1, type: 3}
+  - {fileID: 8300000, guid: dfccc20f1a1ccba4e8a4130d73d47d89, type: 3}
+  - {fileID: 8300000, guid: 523c3ff106387c642906e115a66f94c7, type: 3}
+  emptySound:
+  - {fileID: 8300000, guid: 7924d921f576da445ae421d3a6f5594b, type: 3}
+  - {fileID: 8300000, guid: f9abbb65eba33574cbc3dcb95a03d68f, type: 3}
+  hitEffect: {fileID: 7568312724326430104, guid: 65773a77497326f4caf1c9dde3f76108,
+    type: 3}

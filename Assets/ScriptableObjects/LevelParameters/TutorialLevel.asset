@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5327ac27c1d68244b325b3568e30d5c, type: 3}
+  m_Name: TutorialLevel
+  m_EditorClassIdentifier: 
+  useStartingRoomPrefabs: 1
+  useBossRooms: 0
+  usePrefabsInOrder: 1
+  usePrefabsOnlyOnce: 1
+  wallMaterial: {fileID: 2100000, guid: d9142d1b26e503f45a699088e3ac1622, type: 2}
+  floorMaterial: {fileID: 2100000, guid: e631c0db074ed8849a8835ffd954b65f, type: 2}
+  globalLightIntensity: 0.05
+  lightIntensity: 1
+  roomMinimum: 1
+  roomMaximum: 10
+  npcsPerSpawner: 0
+  topCap: {fileID: 5244103994127482209, guid: 3a7d0c2cf4b555246bdace569b75baa9, type: 3}
+  bottomCap: {fileID: 5244103994127482209, guid: 1c9963a60799747438724f2de59cbc42,
+    type: 3}
+  leftCap: {fileID: 5244103994127482209, guid: c51d8559aaee8d54a870bb919efb1ac5, type: 3}
+  rightCap: {fileID: 5244103994127482209, guid: 1be5969518b14c741be38863e914797b,
+    type: 3}
+  startingRoomPrefabs:
+  - {fileID: 5244103994127482209, guid: 29397d1ef4095dc46be5d0d0bc839673, type: 3}
+  bossRoomPrefabs: []
+  roomPrefabs:
+  - {fileID: 5244103994127482209, guid: 4780ae0fcc0a668418c4ff0f006820d3, type: 3}
+  - {fileID: 5244103994127482209, guid: f3b704ea1c136a8449565fc870fd0304, type: 3}
+  - {fileID: 5244103994127482209, guid: 523ce0d3cc4c3dd449da4e4d16f5f793, type: 3}
+  - {fileID: 5244103994127482209, guid: 9d98827e2afd595438b87113eeb54c16, type: 3}
+  - {fileID: 5244103994127482209, guid: e44028a52208f25478288c130a7c1933, type: 3}
+  - {fileID: 5244103994127482209, guid: 3ebfc87906a0c944284b17fd4236a1d8, type: 3}
+  - {fileID: 5244103994127482209, guid: 705e13a9b00d7bb46985660821b61603, type: 3}
+  - {fileID: 5244103994127482209, guid: 10f5a26775ef91f41b0a432816ba7dcf, type: 3}
+  - {fileID: 5244103994127482209, guid: 16e27c4486529f548a89eea1d61c62c8, type: 3}

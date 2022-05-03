@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833d8e54a7f4e04bb039bc08cec1fd0, type: 3}
+  m_Name: LaserCannon
+  m_EditorClassIdentifier: 
+  WeaponName: 
+  description: A basic rifle.
+  damage: 12
+  refireDelay: 0.08
+  reloadTime: 1.5
+  minDeviation: 4
+  maxDeviation: 20
+  deviationIncreaseRate: 5
+  deviationDecreaseRate: 1
+  range: 8
+  falloff: 4
+  velocity: 35
+  baseCost: 500
+  critChance: 0
+  pierceChance: 0
+  projectileCount: 1
+  maxMagAmount: 20
+  maxSpareAmmo: 80
+  ricochetteCount: 1
+  bulletTrails: 0
+  npcWeapon: 0
+  weaponType: 1
+  projectileType: 2
+  fireType: 1
+  damageType: 1
+  rarity: 3
+  weaponSprite: {fileID: 6453122979169262959, guid: 3ef11b35a616fb14082217bf43f25535,
+    type: 3}
+  projectileSprite: {fileID: 328618694978471227, guid: 47a113e2c94d1354c86e2543de6f6c16,
+    type: 3}
+  material: {fileID: 2100000, guid: 2d4ef4e97ca23fb4fa7212728fceb2df, type: 2}
+  particleMaterial: {fileID: 2100000, guid: f51432d62058bc4478899d75c73f41ef, type: 2}
+  fireSound:
+  - {fileID: 8300000, guid: 7aad31cfbe1e41f4783f69f5985d43fc, type: 3}
+  emptySound: []
+  hitEffect: {fileID: 2498991746102696920, guid: 7dfacdcbcc9936a43a75d6ed896548db,
+    type: 3}

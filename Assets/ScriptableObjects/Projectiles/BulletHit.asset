@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca570c02a435ea4092ec04072a66403, type: 3}
+  m_Name: BulletHit
+  m_EditorClassIdentifier: 
+  hitEffects:
+  - {fileID: 21300000, guid: d7a34bcfd6ee69d48afff5763415e03e, type: 3}
+  - {fileID: 21300000, guid: bfc637523d17a0544a5dfdcbe250af1c, type: 3}
+  - {fileID: 21300000, guid: 3f3dae18511ecab488a1063c56b73d57, type: 3}
+  - {fileID: 21300000, guid: 8a87d6795d89c0a46b195e12d352704b, type: 3}
+  - {fileID: 21300000, guid: 27211a54c95dc8c4c99a30b7be528799, type: 3}
+  material: {fileID: 2100000, guid: 2d4ef4e97ca23fb4fa7212728fceb2df, type: 2}

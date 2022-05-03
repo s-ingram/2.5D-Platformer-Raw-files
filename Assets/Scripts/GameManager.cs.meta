@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a4a6949eac7544a4bbc19774ee806beb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - roomGenParams: {fileID: 11400000, guid: 8940c9251ea697949b82180f6508a7d6, type: 2}
+  - itemList: {fileID: 11400000, guid: e02d78ceac9b99b4d8afb59cead7c5ee, type: 2}
+  - healthBarUI: {instanceID: 0}
+  - shieldBarUI: {instanceID: 0}
+  - ammoCounterUI: {instanceID: 0}
+  - character: {fileID: 2403717387348489953, guid: d83aba2d9bc226b4a8a9b10c43c4fa41,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

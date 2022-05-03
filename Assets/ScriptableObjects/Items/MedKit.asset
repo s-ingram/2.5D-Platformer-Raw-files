@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 398d7322880e26947aa800b8ada3cedd, type: 3}
+  m_Name: MedKit
+  m_EditorClassIdentifier: 
+  name: Med Kit
+  description: Heals 20 HP.
+  maxDuration: 0
+  maxCooldown: 0
+  maxStacks: 1
+  itemType: 2
+  rarity: 0
+  itemSprite: {fileID: 21300000, guid: 1f993d9276f7f04469e1603c358026a7, type: 3}

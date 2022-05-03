@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833d8e54a7f4e04bb039bc08cec1fd0, type: 3}
+  m_Name: GrenadeLauncher
+  m_EditorClassIdentifier: 
+  WeaponName: 
+  description: Launches Grenades
+  damage: 50
+  refireDelay: 1
+  reloadTime: 4
+  minDeviation: 8
+  maxDeviation: 15
+  deviationIncreaseRate: 4
+  deviationDecreaseRate: 0.5
+  range: 10
+  falloff: 3
+  velocity: 15
+  baseCost: 100
+  critChance: 0
+  pierceChance: 0
+  projectileCount: 1
+  maxMagAmount: 10
+  maxSpareAmmo: 50
+  ricochetteCount: 0
+  bulletTrails: 0
+  npcWeapon: 0
+  weaponType: 4
+  projectileType: 1
+  fireType: 0
+  damageType: 3
+  rarity: 2
+  weaponSprite: {fileID: -864190859554680529, guid: 3ef11b35a616fb14082217bf43f25535,
+    type: 3}
+  projectileSprite: {fileID: 21300000, guid: 9e49cffef746f224fa1e4c0e1b39ef6a, type: 3}
+  material: {fileID: 2100000, guid: 2d4ef4e97ca23fb4fa7212728fceb2df, type: 2}
+  particleMaterial: {fileID: 2100000, guid: f51432d62058bc4478899d75c73f41ef, type: 2}
+  fireSound:
+  - {fileID: 8300000, guid: 56b564dac127334448ed8fd0a0af9543, type: 3}
+  hitEffect: {fileID: 7568312724326430104, guid: 65773a77497326f4caf1c9dde3f76108,
+    type: 3}
